@@ -1,0 +1,124 @@
+body{
+	margin: 0 auto;
+	width: 1020px;
+	background-color: #FAFFE1;
+}
+
+header{
+	position: relative;
+	background: linear-gradient(red, yellow);
+	height: 200px;
+}
+
+.menu_opcoes{
+	position:absolute;
+	bottom:0;
+	right:0;
+}
+
+.menu_opcoes ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	overflow: hidden;
+	background-color: #A13036;
+	
+}
+.menu_opcoes ul li{
+	display: inline;
+	margin-left: 0px; 
+	border-right: 1px solid #bbb;
+}
+.menu_opcoes li:last-child{
+	border-right: none;
+}
+.menu_opcoes a{
+	padding: 8px;
+	text-align: center;
+	text-decoration: none;
+	color:white;
+	padding: 14px 16px;
+}
+.menu_opcoes li a:hover{
+	border-radius: 100px;
+	box-shadow: 5px 5px 5px yellow;
+	background-color: #eac717;
+}
+.container{
+	margin: 0 auto;
+	width: 1020px;
+}
+.busca,
+.menu_cardapio{
+	transform: rotate(-10deg);
+	background-color: yellow;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 10px;
+	width: 230px;
+	float: left;
+	border-radius: 15px; 
+	box-shadow: 5px 5px 5px red;
+}
+.busca input [type=search]{
+	width: 170px;
+}
+.busca h2,
+.busca form,
+.menu_cardapio h2{
+	margin: 10px;
+}
+
+.menu_cardapio{
+	clear: left;
+	text-transform: uppercase;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.menu_cardapio li{
+	background-color: #5bdb29;
+	margin-bottom: 1px;
+	padding: 5px 10px;
+
+}
+.menu_cardapio a{
+	color: white;
+	text-decoration: none;
+}
+.menu_cardapio li ul{
+	display: none;
+}
+
+.destaque{
+	margin-top: 0px;
+}
+.destaque figure img{
+	width: 78%;
+}
+
+
+
+
+
+.teste{
+	width: 1000px;
+	height: 250px;
+	border: 2px solid blue;
+	box-shadow: 5px 5px 5px 5px blue;
+	border-radius: 15px;
+}
+
+
+.testeSessao img{
+	width: 30%;
+	float: left;
+	margin: 10px;
+}
+.testeLink{
+	margin: 20px;
+	float: left;
+	margin-top: 50px;
+}
