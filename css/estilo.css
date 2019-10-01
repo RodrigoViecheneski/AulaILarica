@@ -29,6 +29,7 @@ header{
 	display: inline;
 	margin-left: 0px; 
 	border-right: 1px solid #bbb;
+	
 }
 .menu_opcoes li:last-child{
 	border-right: none;
@@ -82,7 +83,7 @@ header{
 	background-color: #5bdb29;
 	margin-bottom: 1px;
 	padding: 5px 10px;
-
+	list-style: none;
 }
 .menu_cardapio a{
 	color: white;
